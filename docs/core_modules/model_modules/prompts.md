@@ -18,7 +18,7 @@ Users may also provide their own prompt templates to further customize the behav
 Defining a custom prompt is as simple as creating a format string
 
 ```python
-from llama_index.prompts import PromptTemplate
+from llama_index.prompts.base import PromptTemplate
 
 template = (
     "We have provided context information below. \n"
